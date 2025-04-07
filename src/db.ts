@@ -1,6 +1,6 @@
 import mongoose,{model,Schema} from "mongoose";
 import { v4 as uuidv4 } from 'uuid';
-mongoose.connect("");
+mongoose.connect("mongodb+srv://adityajha:hS6vyFLnsTa0K5ud@cluster0.jd1zy.mongodb.net/second_brain_app");
 
 const UserSchema=new Schema({
     username:{type:String,unique: true},
